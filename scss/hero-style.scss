@@ -13,6 +13,13 @@
 	// background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d); 
     // background-size: cover;
     
+    .container-rule {
+
+        padding-left: 5rem;
+
+
+    }
+
 
     .hero-headline {
 
@@ -30,4 +37,16 @@
         padding-top: 5rem;
         text-transform: uppercase;
     }
+    .intro-statement {
+
+        font-size: 1.0rem;
+        padding-left: 5rem;
+    }
 }
+
+.bg-gradient {
+        background: linear-gradient(to right, #0575E6, #00F260);
+        background-size: cover;
+        height: 20px;
+        width: auto;
+      }

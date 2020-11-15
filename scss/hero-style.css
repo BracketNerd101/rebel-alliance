@@ -11,6 +11,10 @@
   background-color: #f2f2f2;
 }
 
+.hero .container-rule {
+  padding-left: 5rem;
+}
+
 .hero .hero-headline {
   font-family: 'Montserrat Alternates', sans-serif;
   font-weight: 800;
@@ -24,4 +28,16 @@
   padding-left: 5rem;
   padding-top: 5rem;
   text-transform: uppercase;
+}
+
+.hero .intro-statement {
+  font-size: 1.0rem;
+  padding-left: 5rem;
+}
+
+.bg-gradient {
+  background: linear-gradient(to right, #0575E6, #00F260);
+  background-size: cover;
+  height: 20px;
+  width: auto;
 }
