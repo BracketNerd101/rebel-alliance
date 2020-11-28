@@ -9,80 +9,100 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
         integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
-        <link rel="stylesheet" href="scss/main-style.min.css">
-        <link rel="stylesheet" href="sscss/main-style.scss">
-        <link rel="stylesheet" href="scss/hero-style.min.css">
-        <link rel="stylesheet" href="scss/hero-style.css">
-        <link rel="stylesheet" href="css/gradient-styles.css">
+        <link rel="stylesheet" href="scss/gallery-style.css">
+        
 
     <title>Hello, world!</title>
 </head>
 
 <body>
-    <!-- As a link -->
-    <nav class="navbar fixed navbar-light bg-light">
+    <nav class="navbar navbar-light fixed-top bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand text-success" href="#">ace</a>
+          <a class="navbar-brand" href="#">Navbar</a>
         </div>
-    </nav>
- <!-- Nav Start -->
-    <header>
-        <input type='checkbox' id='toggle' style='display:none;' />
-        <label class='toggle-btn toggle-btn__cross' for='toggle'>
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-        </label>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Résumé</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section class="hero">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h6 class="sub-title">UI Designer | Front End Enthusiast</h6>
-                    <h1 class="display-3 text-black hero-headline">Visual Web Designer</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9">
-                    
-                    <p class="intro-statement">Visual Web Design and Digital Media are part of my most rewarding accomplishments.
-                    </p>
-                    <p class="intro-statement">
-                        Learn more about my work and enthusiasm for design on the about page
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="preview">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12 pt-4">
-                    <h2 class="product-title">Work</h2>
-                </div>
-                
-            </div>
-            <div class="row">
-                <div class="col-xl-6"></div>
-                <div class="col-xl-6"></div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- <main>
-        <div class='wrap'>
-           
-    </main> -->
+      </nav>
+    <main>
 
-    <!-- Nav End -->
+        <section class="py-5 text-center container-fluid hero-home-bg">
+          <div class="row py-lg-5">
+            <div class="col-lg-11 col-md-8 mx-auto">
+              <h1 class="fw-light hero-header-style text-white">Visual Web Designer</h1>
+              <p class="lead text-white">Visual Web Design and Digital Media are part of my most rewarding accomplishments.
+                </p>
+                <p class="lead text-white">
+                    Learn more about my work and enthusiasm for design on the about page.</p>
+              <p>
+                <!-- <a href="#" class="btn btn-primary my-2">Main call to action</a>
+                <a href="#" class="btn btn-secondary my-2">Secondary action</a> -->
+              </p>
+            </div>
+          </div>
+        </section>
+      
+        <div class="album py-5 bg-dark">
+            <div class="container-fluid">
+                <section id="portfolio">
+                
+                
+                    <div class="project">
+                      <img class="project__image" src="https://images.unsplash.com/photo-1521104955835-ba91c70d6443?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=38cdeda7d073c4b6d47a5776f184cba9&auto=format&fit=crop&w=700&q=80" />
+                      <p>pure css</p>
+                      <h3 class="grid__title"> front-end</h3>
+                      <div class="grid__overlay">
+                        <button class="viewbutton">view more</button>
+                      </div>
+                    </div>
+                    
+                    <div class="project">
+                      <img class="project__image" src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e5a31d03ddee66863a599421f792e07b&auto=format&fit=crop&w=700&q=80" />
+                      <p>web apps</p>
+                      <h3 class="grid__title"> full-stack</h3>
+                      <div class="grid__overlay">
+                        <button class="viewbutton">view more</button>
+                      </div>
+                    </div>
+                    
+                    <div class="project">
+                      <img class="project__image" src="https://images.unsplash.com/photo-1472437774355-71ab6752b434?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dd4d735954f33290fbf984e4eb7abe32&auto=format&fit=crop&w=700&q=80" />
+                      <p>daily ui</p>
+                      <h3 class="grid__title"> ui/ux design</h3>
+                      <div class="grid__overlay">
+                        <button class="viewbutton">view more</button>
+                      </div>
+                    </div>
+                    <div class="project">
+                      <img class="project__image" src="https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7c5008952226f48ed4bf5d3ea64ff545&auto=format&fit=crop&w=700&q=80" />
+                      <p>websites</p>
+                      <h3 class="grid__title"> front-end</h3>
+                      <div class="grid__overlay">
+                        <button class="viewbutton">view more</button>
+                      </div>
+                    </div>
+                    
+                    <div class="project">
+                      <img class="project__image" src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?ixlib=rb-0.3.5&s=a4b3dc4bee43da458f6aa5c05be6bfc4&auto=format&fit=crop&w=700&q=80" />
+                      <p>pure css</p>
+                      <h3 class="grid__title"> front-end</h3>
+                      <div class="grid__overlay">
+                        <button class="viewbutton">view more</button>
+                      </div>
+                    </div>
+                    
+                    <div class="project">
+                      <img class="project__image" src="https://images.unsplash.com/photo-1481762554390-ff5562748bdf?ixlib=rb-0.3.5&s=1b7f850b7f8f702e237b0f81c0ec0bf5&auto=format&fit=crop&w=700&q=80" />
+                      <p>web apps</p>
+                      <h3 class="grid__title"> full-stack</h3>
+                      <div class="grid__overlay">
+                        <button class="viewbutton">view more</button>
+                      </div>
+                    </div>
+                    
+                  </section>
+                </div>
+          
+        </div>
+      
+      </main>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
