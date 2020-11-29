@@ -3,16 +3,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Righteous&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Barlow:400,500,700");
+.hot-green-text {
+  color: #7FFF00;
+}
+
+.hot-pink-text {
+  color: #EA178C;
+}
+
 .hero-home-bg {
-  background-color: #28a745;
-  height: 80vh;
+  height: 65vh;
 }
 
 .hero-subHeader-style {
   font-family: 'Righteous', cursive;
-  font-size: 4.3rem;
+  font-size: 3rem;
   margin-top: 2vh;
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
   color: #EA178C;
 }
 

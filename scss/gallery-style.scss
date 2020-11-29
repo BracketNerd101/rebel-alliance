@@ -10,22 +10,28 @@
 // font-family: 'Open Sans', sans-serif;
 // font-family: 'Righteous', cursive;
 
+.hot-green-text {
 
+  color:#7FFF00;
+}
+.hot-pink-text {
 
+  color: #EA178C;
+}
 
 .hero-home-bg {
 
     // background-color: #EA178C;
-    background-color: #28a745;
-    height: 80vh;
+    // background-color: #28a745;
+    height: 65vh;
 }
 
 .hero-subHeader-style {
 
     font-family: 'Righteous', cursive;
-    font-size: 4.3rem;
+    font-size: 3rem;
     margin-top: 2vh;
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
     color: #EA178C;
     
 }
@@ -35,6 +41,7 @@
     font-family: 'Righteous', cursive;
     font-size: 4.3rem;
     margin-top: 10vh;
+
     
 }
 
