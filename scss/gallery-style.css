@@ -11,8 +11,18 @@
   color: #EA178C;
 }
 
+.client-section {
+  background-color: #EA178C;
+}
+
 .hero-home-bg {
   height: 65vh;
+}
+
+.logo-style-name {
+  font-family: 'Righteous', cursive;
+  color: #7FFF00;
+  font-size: 2.5rem;
 }
 
 .hero-subHeader-style {
