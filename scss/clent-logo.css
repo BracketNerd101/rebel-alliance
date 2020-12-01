@@ -8,7 +8,7 @@
 
 .grid-logo > div {
   background: #EA178C;
-  padding: 1rem;
+  padding: 0.5rem;
   display: -ms-grid;
   display: grid;
   place-items: center;
