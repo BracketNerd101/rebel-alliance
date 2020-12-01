@@ -1,8 +1,8 @@
 .grid-logo {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(200px, 1fr))[auto-fill];
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  -ms-grid-columns: (minmax(160px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
   grid-gap: 1rem;
 }
 
