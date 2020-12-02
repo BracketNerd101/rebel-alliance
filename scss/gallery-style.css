@@ -17,7 +17,7 @@
 }
 
 .hero-home-bg {
-  height: 65vh;
+  height: 75vh;
 }
 
 .logo-style-name {
@@ -72,6 +72,10 @@
   font-family: 'Righteous', cursive;
   font-size: 4.3rem;
   margin-top: 10vh;
+}
+
+.client-section {
+  background-color: #111111;
 }
 
 .container {
