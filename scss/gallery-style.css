@@ -28,14 +28,31 @@
 
 .intro-card-title {
   font-family: 'Montserrat Alternates', sans-serif;
-  padding-top: 8rem;
+  padding-top: 1rem;
+}
+
+.about-intro {
+  height: inherit;
+  background-color: #f4f4f4;
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+}
+
+.about-intro .intro-section-content {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.about-intro .intro-section-content .intro-body-content {
+  padding-top: 6rem;
+  padding-left: 4rem;
 }
 
 .hero-subHeader-style {
   font-family: 'Righteous', cursive;
   font-size: 3rem;
   margin-top: 2vh;
-  padding-bottom: 1rem;
+  padding-bottom: 3rem;
   color: #EA178C;
 }
 
