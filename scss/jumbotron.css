@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata|Merriweather");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat+Alternates:700&display=swap");
+.tron-image-set .tron-project-image {
+  background-image: url("../img/cqt_ipad_2.jpg");
+  background-size: cover;
+  height: 40rem;
+}
+
+.tron-image-set .tron-project-info {
+  font-family: 'Righteous', cursive;
+  color: #EA178C;
+}
+/*# sourceMappingURL=jumbotron.css.map */
