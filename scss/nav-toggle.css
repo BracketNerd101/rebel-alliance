@@ -128,7 +128,7 @@
           transform: rotate(-90deg);
 }
 
-span {
+.burger-bars {
   position: absolute;
   width: 73%;
   padding: 1px;
@@ -141,29 +141,29 @@ span {
   transition: top .2s .2s, bottom .2s .2s, opacity .2s .2s, transform .2s .4s, -webkit-transform .2s .4s;
 }
 
-.burger span:nth-child(1) {
+.burger .burger-bars:nth-child(1) {
   top: 0;
 }
 
-.burger.is-active span:nth-child(1) {
+.burger.is-active .burger-bars:nth-child(1) {
   top: calc(50% - 5px);
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
 }
 
-.burger span:nth-child(2) {
+.burger .burger-bars:nth-child(2) {
   top: calc(50% - 3px);
 }
 
-.burger.is-active span:nth-child(2) {
+.burger.is-active .burger-bars:nth-child(2) {
   opacity: 0;
 }
 
-.burger span:nth-child(3) {
+.burger .burger-bars:nth-child(3) {
   bottom: 0;
 }
 
-.burger.is-active span:nth-child(3) {
+.burger.is-active .burger-bars:nth-child(3) {
   bottom: calc(50% - 5px);
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);

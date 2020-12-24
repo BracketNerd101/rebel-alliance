@@ -1,0 +1,49 @@
+.project_hero_style {
+  height: 29rem;
+  margin-bottom: auto;
+}
+
+.project_hero_style .hero_title {
+  padding-top: 15rem;
+  padding-bottom: 7rem;
+  font-family: 'Montserrat Alternates', sans-serif !important;
+  font-size: 4rem;
+}
+
+.company_logo_seal {
+  height: inherit;
+  background-color: #000;
+}
+
+.company_logo_seal img.client-flb {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 4rem;
+  width: auto;
+}
+
+#bg {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 100%;
+  z-index: -3;
+  background-size: cover;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+.billing_hero {
+  background-image: url("../img/couch-billing.jpg");
+  background-size: cover;
+  height: 35rem;
+  width: 100%;
+  margin-bottom: auto;
+}
+/*# sourceMappingURL=project-page.css.map */
