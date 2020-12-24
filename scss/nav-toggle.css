@@ -8,7 +8,6 @@
           box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'Nunito', sans-serif;
 }
 
 .full-menu {
@@ -60,6 +59,7 @@
 
 .full-menu.is-active ul {
   opacity: 1;
+  margin-right: 7rem;
   /*   transform: translateX(0); */
   z-index: 8000000;
 }
