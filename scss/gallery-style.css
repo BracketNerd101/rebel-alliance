@@ -35,20 +35,24 @@
 }
 
 .jumbo-header-style {
-  height: 40rem;
+  height: inherit;
   color: #EA178C;
 }
 
 .jumbo-header-style .hero-header-style {
   font-family: 'Righteous', cursive;
   font-size: 6.3rem;
-  margin-top: 10vh;
+  padding-top: 6rem;
 }
 
 .jumbo-header-style .sub-header-style {
   font-family: 'Open Sans', sans-serif;
   font-size: 3.3rem;
   margin-top: 2vh;
+}
+
+.project-spaceing-hero {
+  margin-top: 7.5rem;
 }
 
 .hero-home-bg {

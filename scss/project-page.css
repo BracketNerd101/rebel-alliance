@@ -30,6 +30,11 @@
   width: auto;
 }
 
+.fis_company_logo_seal {
+  height: inherit;
+  background-color: #4bcd3e;
+}
+
 #bg {
   margin-left: auto;
   margin-right: auto;

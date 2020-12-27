@@ -51,14 +51,14 @@
 
  .jumbo-header-style {
 
-    height: 40rem;
+    height: inherit;
     color:#EA178C;
 
     .hero-header-style {
 
     font-family: 'Righteous', cursive;
     font-size: 6.3rem;
-    margin-top: 10vh;
+    padding-top: 6rem;
    
    }
 
@@ -71,6 +71,11 @@
    }
 
 } 
+
+.project-spaceing-hero {
+
+  margin-top: 7.5rem;
+}
 
 .hero-home-bg {
 
