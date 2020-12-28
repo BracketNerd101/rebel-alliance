@@ -35,6 +35,16 @@
   background-color: #4bcd3e;
 }
 
+.fis_company_logo_seal img.client-flb {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 4rem;
+  width: auto;
+}
+
 #bg {
   margin-left: auto;
   margin-right: auto;
@@ -51,6 +61,14 @@
 
 .billing_hero {
   background-image: url("../img/couch-billing.jpg");
+  background-size: cover;
+  height: 45rem;
+  width: 100%;
+  margin-bottom: auto;
+}
+
+.fis_hero {
+  background-image: url("../img/connect_coworker.jpg");
   background-size: cover;
   height: 45rem;
   width: 100%;
