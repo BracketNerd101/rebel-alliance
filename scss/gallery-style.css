@@ -871,7 +871,7 @@ footer {
 
 @supports (display: grid) {
   .gallery .grid {
-    grid-gap: 1rem;
+    grid-gap: 0rem;
   }
 }
 
@@ -898,5 +898,9 @@ footer {
     display: block;
     padding: 1rem 0;
   }
+}
+
+figure {
+  margin: 0 0 0rem;
 }
 /*# sourceMappingURL=gallery-style.css.map */
