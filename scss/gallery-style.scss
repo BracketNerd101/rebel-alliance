@@ -836,7 +836,7 @@ footer {
 
 @supports (display: grid) {
   .gallery .grid {
-    grid-gap: 0rem;
+    grid-gap: 0.4rem;
   }
 }
 @media (min-width: 62rem) {
